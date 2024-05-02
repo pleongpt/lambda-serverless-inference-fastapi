@@ -144,6 +144,7 @@ If you don’t get an error message, you should be good to deploy the solution.
 make deploy
 ```
 This step can take around **5-10 minutes** due to building and pushing the docker image.
+Make sure the Docker Desktop app is up-to-date. Working version as of May 1, 2024: v4.29.0 for macOS. Otherwise there was an error when adding serving_api.tar.gz during "make deploy" and led to being aborted.
 
 ## Running real-time inference
 
