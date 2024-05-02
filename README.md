@@ -199,6 +199,10 @@ Inside the root directory of your repository, run the following command to clean
 make destroy
 ```
 
+Output of "make destroy":
+
+![image info](./docs/assets/output_of_make_destroy.png)
+
 ### Troubleshooting
 
 #### If you are a Mac User
