@@ -1,5 +1,7 @@
 FROM public.ecr.aws/lambda/python:3.10
 
+RUN yum install -y gcc python3-devel
+
 # Copy function code
 ADD serving_api.tar.gz ${LAMBDA_TASK_ROOT}
 
